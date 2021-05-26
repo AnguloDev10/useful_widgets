@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather_flut/ui/homepage.dart';
+import 'package:weather_flut/widgets/list_veterinary.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Color(0xffe6020a),
       ),
       home: HomePage(),
     );
